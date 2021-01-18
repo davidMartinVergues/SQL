@@ -11,10 +11,11 @@
    ```
 3. ```sql
    SELECT * FROM mysql.user;
+   -- nos da todos los usuarios en mysql
    ```
 4. ```sql
    SELECT USER();
-   -- Me muestra con el usuario que estoy logueado en `mysql`
+   -- Me muestra el usuario con el que estoy logueado en `mysql`
    ```
 5. ```sql
    SELECT DATABASE();
