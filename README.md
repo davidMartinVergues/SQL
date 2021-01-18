@@ -44,7 +44,7 @@
     -- mostrar las tablas
     ```
 12. ```sql
-    describe myTable;
+    describe prueba;
     -- obtener info de una tabla concreta
     ```
 
