@@ -23,6 +23,7 @@
    ```
 6. ```sql
    SHOW VARIABLES WHERE Variable_name = 'port';
+   SHOW GLOBAL VARIABLES LIKE 'PORT'
    -- muestra el puerto en el que trabaja mysql
    ```
 7. ```sql
@@ -48,5 +49,11 @@
     describe prueba;
     -- obtener info de una tabla concreta
     ```
-
-
+13. ```sql
+    SELECT * from `node-app`.products;
+    -- hacer una consulta especificando la bbdd o schema + tabla con notación de punto, la bbdd va entre tildes  ` ` 
+    ```
+13. ```sql
+    use `node-app`;
+      -- para fijar antes del script de SQL q usaremos la bbdd `node-app` tb entre ``
+    ```
